@@ -2,7 +2,7 @@
 
 An end-to-end machine learning project that predicts borrower default risk using the **Give Me Some Credit** Kaggle dataset, with a strong emphasis on **Explainable AI (XAI)** — making every prediction transparent, interpretable, and regulator-friendly.
 
-🔗 **[Live Demo →](https://your-app-name.streamlit.app)** *(update this link after deployment)*
+🔗 **[Live Demo →]https://credit-risk-xai.streamlit.app/
 
 ---
 
