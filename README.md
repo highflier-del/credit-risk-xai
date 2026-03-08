@@ -91,7 +91,7 @@ Built with **Streamlit** — enter any borrower profile and get:
 
 ```bash
 # Using Anaconda Prompt (recommended)
-git clone https://github.com/yourusername/credit-risk-xai
+git clone https://github.com/highflier-del/credit-risk-xai
 cd credit-risk-xai
 pip install -r requirements.txt
 streamlit run credit_xai_app.py
@@ -106,7 +106,7 @@ streamlit run credit_xai_app.py
 ```
 credit-risk-xai/
 ├── credit_xai_app.py                            # Streamlit dashboard
-├── 25754730_XAI_for_Credit_Risk_Assessment.ipynb  # Full analysis notebook
+├── XAI_for_Credit_Risk_Assessment.ipynb         # Full analysis notebook
 ├── cs-training.csv                              # Dataset
 ├── feature_names.pkl                            # Saved feature column names
 ├── requirements.txt                             # Python dependencies
