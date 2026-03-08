@@ -1,4 +1,4 @@
-# 🏦 Credit Risk XAI
+# Credit Risk XAI
 
 An end-to-end machine learning project that predicts borrower default risk using the **Give Me Some Credit** Kaggle dataset, with a strong emphasis on **Explainable AI (XAI)** — making every prediction transparent, interpretable, and regulator-friendly.
 
@@ -6,7 +6,7 @@ An end-to-end machine learning project that predicts borrower default risk using
 
 ---
 
-## 📌 What Problem Does This Solve?
+## What Problem Does This Solve?
 
 Any loan officer can tell you that missed payments are a red flag. The real challenge is **quantifying exactly how risky a borrower is, across dozens of variables, consistently, at scale.**
 
@@ -18,7 +18,7 @@ A bank processing 10,000 loan applications a month can't rely on human judgement
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Source:** [Give Me Some Credit – Kaggle](https://www.kaggle.com/c/GiveMeSomeCredit)
 
@@ -29,7 +29,7 @@ A bank processing 10,000 loan applications a month can't rely on human judgement
 
 ---
 
-## 🤖 Models
+## Models
 
 | Model | ROC-AUC | PR-AUC | Brier Score |
 |---|---|---|---|
@@ -40,7 +40,7 @@ Random Forest outperforms across all metrics and is better calibrated — making
 
 ---
 
-## 🔧 Feature Engineering
+## Feature Engineering
 
 **Original features (10)**
 - Winsorization of outliers at 1st/99th percentile
@@ -59,7 +59,7 @@ Random Forest outperforms across all metrics and is better calibrated — making
 
 ---
 
-## 🔍 Explainability Techniques
+## Explainability Techniques
 
 | Technique | Purpose |
 |---|---|
@@ -78,7 +78,7 @@ Random Forest outperforms across all metrics and is better calibrated — making
 
 ---
 
-## 🚀 Interactive Dashboard
+## Interactive Dashboard
 
 Built with **Streamlit** — enter any borrower profile and get:
 - A default probability score (0–100%)
@@ -101,7 +101,7 @@ streamlit run credit_xai_app.py
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 credit-risk-xai/
@@ -115,7 +115,7 @@ credit-risk-xai/
 
 ---
 
-## 🧰 Dependencies
+## Dependencies
 
 ```
 streamlit>=1.32.0
@@ -128,7 +128,7 @@ joblib>=1.3.0
 
 ---
 
-## 💼 Business Implications
+## Business Implications
 
 - **Automated screening** — flags high-risk applicants instantly at scale
 - **Regulatory compliance** — XAI outputs provide explainable, auditable decisions
@@ -143,9 +143,9 @@ joblib>=1.3.0
 
 ---
 
-## 👤 Author
+## Author
 
-**Tarun Singh** — Student ID: 25754730
+**Tarun Singh**
 
 ---
 
